@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<title>Testes 25/04/22</title>
+<body>
+<h1>Testando a tomada da bancada do SENAC:</h1>
+<p>121,7V</p>
+<h1>Testando a continuidade do cabo de força:</h1>
+<p>Zerou Tudo</p>
+<h1>Testando o cabo de força ligado na tomada:</h1>
+<!--Ligando a Fonte de Alimentação-->
+<p>122,4</p>
+<h1>Testando a Corrente Contínua da Fonte:</h1>
+<!--Obs: 3,3V-LA, 5V-VE e 12V-AM-->
+<p>3,29(Laranja), 5,06(Vermelho), 12,6(Amarelo).</p>
+<body>
+<html>
