@@ -1,0 +1,16 @@
+#04_ DNS SERVER DE REDE (IPV4)
+
+GNU/Linux          |        MICROSOFT WINDOWS
+           
+if config                    ip config
+10.26.45.120                 10.26.45.99
+ping 8.8.8.8                 ping 8.8.8.8
+ping google.com              ping google.com
+route -n 10.26.45.1          ipconfig
+resolvectl 10.26.40.190      ipconfig /all
+nslookup google.com          nslookup google.com
+-------------------------------------------------
+Dinâmico (Dynamic) DHCP      Estático (Static) Manual
+
+DNS-01: 8.8.8.8
+DNS-02: 8.8.8.4
