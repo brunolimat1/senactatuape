@@ -1,0 +1,89 @@
+download java no site da oracle: https://www.oracle.com/br/java/technologies/downloads/
+download jdk: https://jdk.java.net/17/
+download vscode: https://code.visualstudio.com/
+download eclipse: https://www.eclipse.org/downloads/packages/
+download adoptium: https://adoptium.net/
+download Intellij IDEA: https://www.jetbrains.com/pt-br/idea/
+
+#checar versão do java pelo cmd:
+java compiler: javac --version
+java: java --version
+
+1- Visual Studio Code:
+*Extensions: Material Icon Theme, Extension Pack for Java.
+*criar um new file: Aula01/Primeiro.java
+
+package Aula01;
+public class Primeiro{
+
+    public static void main(String[] args){
+        System.out.println(x:"Olá Mundo!");
+    }
+    
+
+}
+
+
+2- Abrir o terminal(ctrl+J): cd Aula01
+*javac Primeiro.java
+*ls
+
+3- Eclipse:
+*Abrir dentro da pasta de destino
+*New Project/Java Project
+*Project Name: Lógica
+
+-criar uma new class dentro do src:
+Package: br.com.logica.introducao
+Name: Primeiro
+[x]public static void main(String[]args)
+Finish.
+
+-criar uma new class dentro da package:
+Package: br.com.logica.introducao
+Name: EntradaTexto
+[x]public static void main(String[]args)
+Finish.
+
+-Primeiro.java:
+package br.com.logica.introducao;
+
+public class Primeiro {
+
+	public static void main(String[] args) {
+		
+		 System.out.println("Olá Mundo!");
+
+	}
+
+}
+
+
+-EntradaTexto.java:
+package br.com.logica.introducao;
+
+import java.util.Scanner;
+
+public class EntradaTexto {
+
+	public static void main(String[] args) {
+		
+		String nome;
+		
+		Scanner texto = new Scanner(System.in);
+		
+		 System.out.println("Digite o seu nome:");
+		 
+		 nome = texto.next();
+		 
+		 System.out.println("Olá " + nome);
+		 
+		 
+		 
+
+	}
+
+}
+
+
+-Executar e testar
