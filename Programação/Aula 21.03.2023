@@ -1,0 +1,22 @@
+1-Eclipse
+Criar uma new class dentro de br.com.logica.introducao
+Package: br.com.logica.inicio
+Name: Operacoes
+[x]public static void main(String[]args)
+Finish.
+
+-Operacoes.java:
+package br.com.logica.inicio;
+
+public class Operacoes {
+
+	public static void main(String[] args) {
+		
+		//Vamos declarar 2 variáveis para realizar cálculos
+		int n1;
+		int n2;
+		int soma, multiplicar, subtrair, dividir;
+		
+	}
+
+}
