@@ -8,6 +8,8 @@ Finish.
 -Operacoes.java:
 package br.com.logica.inicio;
 
+import java.util.Scanner;
+
 public class Operacoes {
 
 	public static void main(String[] args) {
@@ -16,6 +18,21 @@ public class Operacoes {
 		int n1;
 		int n2;
 		int soma, multiplicar, subtrair, dividir;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Digite um número: ");
+		n1 = input.nextInt();
+		
+		System.out.println("Digite outro número: ");
+		n2 = input.nextInt();
+		
+		soma = n1 + n2;
+		multiplicar = n1 * n2;
+		subtrair = n1 - n2;
+		dividir = n1 / n2;
+		
+		
 		
 	}
 
