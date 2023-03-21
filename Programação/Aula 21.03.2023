@@ -42,3 +42,39 @@ public class Operacoes {
 	}
 
 }
+
+
+
+
+
+2-Criar uma new class dentro de br.com.logica.inicio
+Package: br.com.logica.inicio
+Name: Desconto
+[x]public static void main(String[]args)
+Finish.
+
+-Desconto.java:
+package br.com.logica.inicio;
+
+import java.util.Scanner;
+
+public class Desconto {
+
+	public static void main(String[] args) {
+		
+		double preco, taxa, valor, total;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o preço do produto: ");
+		preco = entrada.nextDouble();
+		
+		System.out.println("Digite a taxa de desconto sem o simbolo de %: ");
+		taxa = entrada.nextDouble();
+		
+		
+		
+		
+
+	}
+
+}
